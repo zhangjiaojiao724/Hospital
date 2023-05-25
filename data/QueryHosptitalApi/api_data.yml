@@ -1,0 +1,6 @@
+#option_key: ["pageNum" ,"pageSize"]
+#参数较多时  可以使用数据驱动
+
+option_key:
+  - - {"key":  "pageNum","code":200}
+  - - {"key":  "pageSize","code":200}

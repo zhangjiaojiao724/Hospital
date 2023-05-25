@@ -1,0 +1,200 @@
+[INFO]custom_logs.py:57 - 09:43:45.955 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 09:43:46.111 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 09:43:46.113 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 09:43:46.114 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 09:43:46.116 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 09:43:46.757 - response status_code:200
+[INFO]api_demo.py:10 - 09:43:46.758 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 09:43:46.760 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 09:43:46.761 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 09:43:46.764 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 09:43:46.765 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 09:43:46.766 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 09:43:47.124 - response status_code:401
+[INFO]api_demo.py:10 - 09:43:47.126 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 09:47:47.758 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 09:47:47.806 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 09:47:47.807 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 09:47:47.808 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 09:47:47.809 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 09:47:48.395 - response status_code:200
+[INFO]api_demo.py:10 - 09:47:48.397 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 09:47:48.399 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 09:47:48.400 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 09:47:48.401 - Describe: 查询医院 登录token失效
+[INFO]custom_logs.py:57 - 10:25:15.392 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:25:15.496 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:25:15.497 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:25:15.497 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:25:15.506 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:25:16.036 - response status_code:200
+[INFO]api_demo.py:10 - 10:25:16.038 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:25:16.042 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:25:16.046 - TestCase: testCase02_option_key_0_pageNum of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:25:16.047 - Describe: 查询医院 选填项检验 [with *None=('pageNum',)]
+[INFO]custom_logs.py:57 - 10:25:16.064 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:25:16.066 - TestCase: testCase02_option_key_1_pageSize of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:25:16.067 - Describe: 查询医院 选填项检验 [with *None=('pageSize',)]
+[INFO]custom_logs.py:57 - 10:25:16.070 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:25:16.071 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:25:16.072 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 10:25:16.076 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:25:16.078 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 10:25:16.367 - response status_code:401
+[INFO]api_demo.py:10 - 10:25:16.369 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 10:26:03.805 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:26:03.865 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:26:03.866 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:26:03.868 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:26:03.871 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:26:07.454 - response status_code:200
+[INFO]api_demo.py:10 - 10:26:07.457 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:26:07.460 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:26:07.460 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:26:07.462 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 10:26:07.462 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:26:07.464 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 10:26:07.717 - response status_code:401
+[INFO]api_demo.py:10 - 10:26:07.719 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 10:30:00.284 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:30:00.334 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:30:00.335 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:30:00.336 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:30:00.338 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:30:01.408 - response status_code:200
+[INFO]api_demo.py:10 - 10:30:01.410 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:30:01.412 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:30:01.414 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:30:01.416 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 10:30:01.417 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:30:01.418 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 10:30:01.747 - response status_code:401
+[INFO]api_demo.py:10 - 10:30:01.749 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 10:45:29.180 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:45:29.274 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:45:29.275 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:45:29.277 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:45:29.284 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:45:29.854 - response status_code:200
+[INFO]api_demo.py:10 - 10:45:29.856 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:45:29.857 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:45:29.859 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:45:29.860 - Describe: 查询医院 登录token失效
+[INFO]custom_logs.py:57 - 10:46:06.851 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:46:06.894 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:46:06.895 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:46:06.896 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:46:06.897 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:46:07.479 - response status_code:200
+[INFO]api_demo.py:10 - 10:46:07.481 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:46:07.483 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:46:07.484 - TestCase: testCase16_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:46:07.486 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 10:46:07.487 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:46:07.489 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 10:46:07.807 - response status_code:401
+[INFO]api_demo.py:10 - 10:46:07.808 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 10:52:11.721 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:52:11.769 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:52:11.771 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 10:52:11.772 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:52:11.773 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 10:52:12.366 - response status_code:200
+[INFO]api_demo.py:10 - 10:52:12.367 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 10:52:12.369 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:52:12.370 - TestCase: testCase02_option_key_0_pageNum of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:52:12.371 - Describe: 查询医院 选填项检验 [with key='pageNum']
+[INFO]custom_logs.py:57 - 10:52:12.386 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:52:12.387 - TestCase: testCase02_option_key_1_pageSize of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:52:12.389 - Describe: 查询医院 选填项检验 [with key='pageSize']
+[INFO]custom_logs.py:57 - 10:52:12.390 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 10:52:12.392 - TestCase: testCase03_token_failure of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 10:52:12.393 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 10:52:12.394 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 10:52:12.395 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 10:52:12.678 - response status_code:401
+[INFO]api_demo.py:10 - 10:52:12.680 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 11:00:46.435 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 11:00:46.544 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 11:00:46.545 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 11:00:46.546 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 11:00:46.555 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 11:00:47.148 - response status_code:200
+[INFO]api_demo.py:10 - 11:00:47.150 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 11:00:47.152 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 11:00:47.153 - TestCase: testCase02_option_key_0_pageNum of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 11:00:47.154 - Describe: 查询医院 选填项检验 [with key='pageNum']
+[INFO]api_demo.py:6 - 11:00:47.156 - request body:{'pageSize': 10}
+[INFO]api_demo.py:7 - 11:00:47.172 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 11:00:47.627 - response status_code:200
+[INFO]api_demo.py:10 - 11:00:47.628 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 11:00:47.630 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 11:00:47.631 - TestCase: testCase02_option_key_1_pageSize of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 11:00:47.633 - Describe: 查询医院 选填项检验 [with key='pageSize']
+[INFO]api_demo.py:6 - 11:00:47.634 - request body:{'pageNum': 1}
+[INFO]api_demo.py:7 - 11:00:47.636 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 11:00:48.120 - response status_code:200
+[INFO]api_demo.py:10 - 11:00:48.123 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 11:00:48.125 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 11:00:48.127 - TestCase: testCase03_token_failure of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 11:00:48.129 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 11:00:48.131 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 11:00:48.137 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 11:00:48.385 - response status_code:401
+[INFO]api_demo.py:10 - 11:00:48.386 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 13:51:22.705 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 13:51:22.807 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 13:51:22.808 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 13:51:22.809 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 13:51:22.818 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 13:51:23.443 - response status_code:200
+[INFO]api_demo.py:10 - 13:51:23.446 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 13:51:23.448 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 13:51:23.449 - TestCase: testCase02_option_key_0_pageNum of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 13:51:23.452 - Describe: 查询医院 选填项检验 [with key='pageNum']
+[INFO]api_demo.py:6 - 13:51:23.452 - request body:{'pageSize': 10}
+[INFO]api_demo.py:7 - 13:51:23.464 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 13:51:23.952 - response status_code:200
+[INFO]api_demo.py:10 - 13:51:23.955 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 13:51:23.957 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 13:51:23.958 - TestCase: testCase02_option_key_1_pageSize of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 13:51:23.959 - Describe: 查询医院 选填项检验 [with key='pageSize']
+[INFO]api_demo.py:6 - 13:51:23.960 - request body:{'pageNum': 1}
+[INFO]api_demo.py:7 - 13:51:23.961 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 13:51:24.398 - response status_code:200
+[INFO]api_demo.py:10 - 13:51:24.401 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 13:51:24.404 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 13:51:24.405 - TestCase: testCase03_token_failure of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 13:51:24.406 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 13:51:24.408 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 13:51:24.410 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 13:51:24.667 - response status_code:401
+[INFO]api_demo.py:10 - 13:51:24.669 - response res body:{"code":401,"msg":"token失效，请重新登录"}
+[INFO]custom_logs.py:57 - 14:09:27.443 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 14:09:27.489 - TestCase: testCase01_Queryhospital of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 14:09:27.490 - Describe: 查询医院 主流程
+[INFO]api_demo.py:6 - 14:09:27.491 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 14:09:27.493 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 14:09:28.207 - response status_code:200
+[INFO]api_demo.py:10 - 14:09:28.209 - response res body:{"code":0,"msg":"success","data":{"total":3,"current":1,"pages":1,"size":10,"optimizeCountSql":true,"records":[{"address":"苏州高新区漓江路1号","unifiedOrgCode":"12320511466993278R","mobile":"0512-33322120","updateTime":"2022-01-20 15:09:24","sort":"1","licenceUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-yyzz.jpg","hospDegreeCode":"5","hospClassCode":"3","hospName":"苏州科技城医院光大互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-pic.jpg","createTime":"2022-01-20 15:09:22","orgCode":"13","intro":"<CLOB>","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/kjc-icon.png","chiId":"12320511466993278R"},{"address":"江苏省苏州市","unifiedOrgCode":"1210000046695632XL","mobile":"0512-68282030","updateTime":"2022-07-18 13:43:49","sort":"2","licenceUrl":"http://qny.sdfey.com/BASE_obuG-uC_gUiTb.jpg","hospDegreeCode":"1","lag":"31.305762","hospClassCode":"3","hospName":"苏州大学附属第二医院互联网医院","websiteUrl":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-pic.jpg","createTime":"2022-07-18 13:43:49","orgCode":"1","intro":"苏州大学附属第二医院始建于1988年，又名核工业总医院、中法友好医院，是一所集医疗、教学、科研、预防、应急等为一体的大型综合性医院。","logo":"https://static.cebbank.com/fileDir/subject/resource/szygybapp/fcs/image/hospital2/fey-icon.png","chiId":"1210000046695632XL","lat":"120.590528"},{"unifiedOrgCode":"123205004669574293","hospName":"苏州市立医院","createTime":"2023-05-10 17:05:26","updateTime":"2023-05-10 17:05:26","chiId":"123205004669574293"}],"searchCount":true,"orders":[]}}
+[INFO]custom_logs.py:57 - 14:09:28.211 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 14:09:28.212 - TestCase: testCase02_option_key_0 of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 14:09:28.213 - Describe: 查询医院 选填项检验 [with dic={'key': 'pageNum', 'code': 200}]
+[INFO]api_demo.py:6 - 14:09:28.214 - request body:{'pageSize': 10}
+[INFO]api_demo.py:7 - 14:09:28.216 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 14:09:28.707 - response status_code:200
+[INFO]api_demo.py:10 - 14:09:28.709 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 14:09:28.710 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 14:09:28.711 - TestCase: testCase02_option_key_1 of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 14:09:28.712 - Describe: 查询医院 选填项检验 [with dic={'key': 'pageSize', 'code': 200}]
+[INFO]api_demo.py:6 - 14:09:28.714 - request body:{'pageNum': 1}
+[INFO]api_demo.py:7 - 14:09:28.715 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4NDg5MjAyNywiZXhwIjoxNzE2NDI4MDI3fQ.vjhP5gpNLjjoNfCuc357dAFT680EAmRmYetrAXlN6Fl64BeXkiPVEU2R4IvL8t-pAlDfMEJeV70pCXlLaQjqtg'}
+[INFO]api_demo.py:9 - 14:09:29.132 - response status_code:200
+[INFO]api_demo.py:10 - 14:09:29.134 - response res body:{"code":0,"msg":"success","data":null}
+[INFO]custom_logs.py:57 - 14:09:29.136 - ------------------------------------------------------------------
+[INFO]custom_logs.py:58 - 14:09:29.137 - TestCase: testCase03_token_failure of class QueryHospitalApi
+[INFO]custom_logs.py:59 - 14:09:29.138 - Describe: 查询医院 登录token失效
+[INFO]api_demo.py:6 - 14:09:29.139 - request body:{'pageNum': 1, 'pageSize': 10}
+[INFO]api_demo.py:7 - 14:09:29.140 - request headers:{'token': 'webeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyOCIsImlhdCI6MTY4MzMzODEwOSwiZXhwIjoxNzE0ODc0MTA5fQ.PbqMyanMwqnl2WTVw8mo6Y-J4xdiaRNtIRGhmdoyq3NyILp3qx8kwknmZAmQFFw_Flx59kJxCOKSLUiDXg4ztQ1'}
+[INFO]api_demo.py:9 - 14:09:29.402 - response status_code:401
+[INFO]api_demo.py:10 - 14:09:29.404 - response res body:{"code":401,"msg":"token失效，请重新登录"}
